@@ -1,4 +1,4 @@
-# Set Up Python environement
+# Set Up Python environment
 * [Install on MacOS](#Install-on-MacOS)
 * [Install on Linux](#Install-on-Linux)
 * [Install on Windows](#Install-on-Windows)
