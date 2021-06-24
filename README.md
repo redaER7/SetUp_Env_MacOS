@@ -1,7 +1,8 @@
 ## Table of contents
 * [Install Xcode](#Install-Xcode)
 * [Install Homebrew](#Install-Homebrew)
-* [Setup](#setup)
+* [Install Python](#Install-Python)
+* [Install Pip](#Install-Pip)
 
 Mac OS X comes with Python 2.7 already.
 
@@ -72,10 +73,53 @@ If you modified `.zshrc`, execute this command:
 ```
 $ source ~/.zshrc
 ```
-## Choose an image
 
-	
-## Setup
+The changes you have made to the PATH environment variable will take effect. They’ll be set correctly when you log in again in the future, as the configuration file for your shell is executed automatically when you open the Terminal again.
+
+let’s verify that Homebrew is set up correctly. Execute this command:
+```
+$ brew doctor
+```
+if installation is successfull, you'll see this message.
+```
+Output
+Your system is ready to brew.
+```
+
+if not, run:
+```
+$ brew update
+```
+
+## Install Python
+
+```
+$ brew install python
+```
+This will take somes minutes.
 
 
-![Algorithm schema](./images/image1.png)
+Make sure you have successfully install python.
+```
+$ python3 --version
+```
+
+## Install Pip
+
+PIP is a package management system used to install and manage software packages/libraries written in Python. These files are stored in a large “on-line repository” termed as Python Package Index (PyPI).
+
+pip uses PyPI as the default source for packages and their dependencies.
+
+Dowload `pip` from link:
+```
+$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+```
+Now execute and wait until the process finishes:
+```
+$ python3 get-pip.py
+```
+
+Make sure you have successfully install python.
+```
+$ pip3 --version
+```
