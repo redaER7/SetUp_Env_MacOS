@@ -1,4 +1,4 @@
-# Table of contents
+# Set Up Python environement
 * [Install on MacOS](#Install-on-MacOS)
 * [Install on Linux](#Install-on-Linux)
 * [Install on Windows](#Install-on-Windows)
