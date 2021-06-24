@@ -1,5 +1,7 @@
 # Table of contents
 * [Install on MacOS](#Install-on-MacOS)
+* [Install on Linux](#Install-on-Linux)
+* [Install on Windows](#Install-on-Windows)
 
 Mac OS X comes with Python 2.7 already.
 
@@ -95,7 +97,6 @@ $ brew install python
 ```
 This will take somes minutes.
 
-
 Make sure you have successfully install python.
 ```
 $ python3 --version
@@ -120,3 +121,47 @@ Make sure you have successfully install python.
 ```
 $ pip3 --version
 ```
+# Install on Linux
+## Install Python
+The following describes how to install Python3 on Ubuntu Linux machines.
+If you are using Ubuntu 16.10 or newer, then you can easily install Python3 with:
+```
+$ sudo apt-get update
+$ sudo apt-get install python
+```
+If you’re using another version of Ubuntu  or you want to use a more current Python, we recommend using the deadsnakes PPA to install Python 3.8:
+```
+$ sudo apt-get install software-properties-common
+$ sudo add-apt-repository ppa:deadsnakes/ppa
+$ sudo apt-get update
+$ sudo apt-get install python3.8
+```
+If you are using other Linux distribution, chances are you already have Python 3 pre-installed as well. If not, use your distribution’s package manager. For example on Fedora, you would use dnf:
+```
+$ sudo dnf install python3
+```
+Make sure you have successfully install python.
+```
+$ python3 --version
+```
+
+## Install Pip
+PIP is a package management system used to install and manage software packages/libraries written in Python. These files are stored in a large “on-line repository” termed as Python Package Index (PyPI).
+
+pip uses PyPI as the default source for packages and their dependencies.
+To install pip on Ubuntu, Debian, and Linux Mint:
+```
+$ sudo apt install python3-pip
+```
+To install pip on CentOS 8 (and newer), Fedora, and Red Hat:
+```
+$ sudo dnf install python3
+```
+
+Make sure you have successfully install python.
+```
+$ pip3 --version
+```
+## Install on Windows
+Please follow this tutorial
+https://www.tutorialspoint.com/how-to-install-python-in-windows
