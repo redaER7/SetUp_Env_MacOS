@@ -1,8 +1,5 @@
-## Table of contents
-* [Install Xcode](#Install-Xcode)
-* [Install Homebrew](#Install-Homebrew)
-* [Install Python](#Install-Python)
-* [Install Pip](#Install-Pip)
+# Table of contents
+* [Install on MacOS](#Install-on-MacOS)
 
 Mac OS X comes with Python 2.7 already.
 
@@ -10,7 +7,7 @@ These instructions concern the installation of Python3.
 
 The version shipped with OS X may be out of date from the official current Python release, which is considered the stable production version.
 
-
+# Install on MacOS
 ## Install Xcode
 Before installing Python3, We need to install Xcode.
 the Xcode Command Line Tools package gives you a complete Unix toolkit accessible through Terminal.
@@ -66,9 +63,9 @@ For `vim` , just type `:wq` followed by `ECHAP` button.
 To activate these changes, use the `source` command to load the file you modified.
 
 If you modified `.bash_profile`, execute this command:
-
-source `~/.bash_profile`
- 
+```
+$ source `~/.bash_profile`
+``` 
 If you modified `.zshrc`, execute this command:
 ```
 $ source ~/.zshrc
