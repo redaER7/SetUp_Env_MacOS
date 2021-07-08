@@ -19,7 +19,7 @@ Within the Xcode Command Line toolkit, Mac users gain access to numerous useful 
 1. Open Terminal from searchbar or Go to Terminal in /Applications/Utilities/.
 2. Input the following command string in Terminal: 
 ```
-$ xcode-select —install
+$ xcode-select --install
 ```
 3. A popup update window will appear asking you: “The xcode-select command requires the command line developer tools. Would you like to install the tools now?” click yes and continue.
 
