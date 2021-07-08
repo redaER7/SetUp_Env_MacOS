@@ -61,7 +61,7 @@ To activate these changes, use the `source` command to load the file you modifie
 
 If you modified `.bash_profile`, execute this command:
 ```
-$ source `~/.bash_profile`
+$ source ~/.bash_profile
 ``` 
 If you modified `.zshrc`, execute this command:
 ```
