@@ -30,11 +30,6 @@ Homebrew is a package manager for macOS which lets you install free and open-sou
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-The command uses curl to download the Homebrew installation script from Homebrew’s Git repository on GitHub.
-Run the script:
-```
-& /bin/bash install.sh
-```
 The installation script will explain what it will do and will prompt you to confirm that you want to do it. This lets you know exactly what Homebrew is going to do to your system before you let it proceed. It also ensures you have the prerequisites in place before it continues.
 
 Press the letter `y` for “yes” whenever you are prompted to confirm the installation.
@@ -108,13 +103,9 @@ PIP is a package management system used to install and manage software packages/
 
 pip uses PyPI as the default source for packages and their dependencies.
 
-Dowload `pip` from link:
+Dowload `pip` with homebrew:
 ```
-$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-```
-Now execute and wait until the process finishes:
-```
-$ python3 get-pip.py
+$ brew install pip
 ```
 
 Make sure you have successfully install python.
