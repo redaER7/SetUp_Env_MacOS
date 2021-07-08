@@ -28,7 +28,7 @@ Homebrew is a package manager for macOS which lets you install free and open-sou
 
 1. In terminal, download homebrew package
 ```
-$ curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/master/install.sh
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 The command uses curl to download the Homebrew installation script from Homebrew’s Git repository on GitHub.
 Run the script:
